@@ -36,3 +36,29 @@
 ```bash
 docker run -d -p 8080:80 nginx
 →nginxコンテナをバックグラウンドで起動し、localhost:8080からアクセスできるようにする
+```
+
+### 2026-02-06
+**ShellScript**
+**Linux（＝オープンソースのOS）**
+
+#### ✏️ 学んだこと、実行したこと
+- Docker を利用してubunt環境構築
+- コマンドを使ってubunt操作
+- ShellScriptでファイル作成→実行
+  - vim ファイル名.shでファイル作成
+  - i でインサートモード書き込みできる
+  - esc→:wqで保存
+  - chmod +x ファイル名.shで実行権限
+  - ./ファイル名で実行
+
+#### 👀 印象に残ったコマンド（1〜3個）
+```bash
+date
+→このコマンドで現在の日時を取得
+read number
+→ユーザーに入力された値をnumberに入れる
+then/fi
+→ifの開始と終了
+echo
+→出力コマンド
