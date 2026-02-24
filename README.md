@@ -223,3 +223,19 @@ SELECT カラム名 FROM テーブル名
   - m 外側余白
   - pt 余白トップ
   - mb margin-bottom
+
+### 2026-02-24
+**APIサーバー**  
+**Express.js**  
+
+#### ✏️ 学んだこと、実行したこと
+- REST（＝リソース思考のURL設計）
+  - GET　取得
+  - POS　作成
+  - PUT　更新
+  - DELETE　削除
+- JSON(=JavaScript Object Notationの略)
+- Node.js
+  - サーバサイドアプリケーションの機能を実現するための組み込みモジュールを提供
+  - ネットワーク、ファイルシステム
+- Express.js(= Node.js のWebアプリケーションフレームワーク) 
